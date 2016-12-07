@@ -1,0 +1,219 @@
+@media screen and (min-width:501px){
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:#373737;
+	margin-top:100px;
+}
+
+#topbar{
+	background-image:url(https://s-media-cache-ak0.pinimg.com/originals/c9/97/81/c99781a0ab356681cb038f70b1df68f1.jpg);
+	width:100%;
+	height:10%;
+	position:fixed;
+	border: solid #943126;
+	top: 0;
+	left: 0;
+	z-index:2;
+}
+
+.topbarheading{
+	font-size: 300%;
+	text-align:center;
+	color:#f74100;
+	padding-top:1%;
+	padding-left:1%;
+	position:fixed;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#main{
+	min-height:50%;
+	width:93%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+	.mainp{
+		font-size:200%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+		text-indent:40px;
+	}
+
+#info{
+	min-height:50%;
+	width:45%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+	.infoh{
+		font-size:50px;
+		text-align: center;
+	}
+
+	.infop{
+		text-indent:40px;
+		font-size:150%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+	}
+
+	.smicon{
+		align-self:bottom;
+		width:90%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.gameobj{
+		align-self:bottom;
+		width:45%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.thumbs{
+		align-self:bottom;
+		width:70%;
+		padding-left:30%;
+		padding-top:5%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.thxpgr{
+		font-size:150%;
+		font-family: 'Chelsea Market', cursive;
+		text-indent:40px;
+	}
+}
+
+@media screen and (max-width:500px){
+
+	*{
+	box-sizing: border-box;
+}
+
+body{
+	background:#373737;
+	margin-top:30px;
+}
+
+#topbar{
+	background-image:url(https://s-media-cache-ak0.pinimg.com/originals/c9/97/81/c99781a0ab356681cb038f70b1df68f1.jpg);
+	width:100%;
+	height:10%;
+	position:fixed;
+	border: solid #943126;
+	top: 0;
+	left: 0;
+	z-index:2;
+}
+
+.topbarheading{
+	font-size: 85%;
+	text-align:center;
+	color:#FFFFFF;
+	padding-top:.5%;
+	padding-left:1%;
+	position:fixed;
+}
+
+#main{
+	min-height:50%;
+	width:93%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	position:relative;
+}
+
+	.mainp{
+		font-size:75%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+		text-indent:40px;
+	}
+
+#info{
+	min-height:50%;
+	width:93%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+	.infoh{
+		font-size:90%;
+		text-align: center;
+	}
+
+	.infop{
+		text-indent:40px;
+		font-size:75%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+	}
+
+	.smicon{
+		align-self:bottom;
+		width:90%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.gameobj{
+		align-self:bottom;
+		width:45%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.thumbs{
+		align-self:bottom;
+		width:70%;
+		padding-left:30%;
+		padding-top:5%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.thxpgr{
+		font-size:75%;
+		font-family: 'Chelsea Market', cursive;
+		text-indent:40px;
+	}
+}
